@@ -1,0 +1,4 @@
+{
+  "python.analysis.typeCheckingMode": "off",
+  "python.defaultInterpreterPath": "/home/ankit/Documents/switch_2026/fastapi/env/bin/python"
+}
