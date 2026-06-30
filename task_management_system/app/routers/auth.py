@@ -27,7 +27,6 @@ def login(
     db: Session = Depends(get_db),
 ):
     """Accepts username or email in the `username` field."""
-    print("-------->>>>>>", form_data.username)
     user = user_crud.get_user_by_username(db, form_data.username)
     if not user:
         user = user_crud.get_user_by_email(db, form_data.username)
